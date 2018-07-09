@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	  background: rgba(100,120,110,0.80);
+	     backgroun-size: cover;
+		font-family: verdena tahoma sen-s;
+		font-size: 20px;
+		margin: 0;
+        line-height: 30px;
+}
+.nav{
+	text-align:center;
+	width:120%;
+	background:rgba(50,120,70,1.50);
+	border-radius:10px;
+	}
+.nav ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	position:relative;
+	
+
+}
+.nav ul li a{
+	display:block;
+	padding:24px;
+	color:#fff;
+	text-decoration:none;
+	width:150px;
+	
+	} 
+.nav ul:after{
+	content:""; clear:both;
+	display:block;
+	}
+.nav ul li{
+	float:left;
+	display:block;
+	}
+.nav ul ul{
+	display:none;
+	}
+.nav ul li:hover > ul{
+	display:block;
+	}
+.nav ul li:hover{
+	background:black;
+	transition:0.9s;
+	}
+.nav ul li:hover a{
+	color:#F00778;
+	}
+.nav ul ul{
+	background:#000889;
+	margin:0;
+	padding:0;
+	position:absolute; top:100%
+	}
+.nav ul ul li{
+	float:none;
+	position:relative;
+	}
+.nav ul ul li a{
+	padding:24px;
+	color:#fff;
+	width:300px;
+	text-align:left;
+	}
+.nav ul ul li a:hover{
+	background:lightblue;
+	color:blue;
+	transition:0.9s;}
+</style>
+
